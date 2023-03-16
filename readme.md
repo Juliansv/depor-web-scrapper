@@ -30,7 +30,15 @@ npm i
 npm run scrapper 
 ```
 
-Una vez hecho esto se deberia poder ver la tabla con los datos en el puerto [8000](localhost:8000)
+Una vez hecho esto se deberia poder ver la tabla con los datos en el puerto [8000](http://localhost:8000/)
+
+## Rutas
+
+Todos los jugadores de todos los equipos 
+[http://localhost:8000/todos](http://localhost:8000/todos)
+
+Solo los jugadores del depor
+[http://localhost:8000/](http://localhost:8000/)
 
 
 ## ¿Cómo contribuir al proyecto?
