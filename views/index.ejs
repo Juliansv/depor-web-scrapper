@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      th {
+        text-align: center;
+      }
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Table Example</h1>     
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th onclick="sortTable(0)">Jugador</th>
+            <th onclick="sortTable(1)">Equipo</th>
+            <th onclick="sortTable(2)">F1</th>
+            <th onclick="sortTable(3)">F2</th>
+            <th onclick="sortTable(4)">F3</th>
+            <th onclick="sortTable(5)">F4</th>
+            <th onclick="sortTable(6)">F5</th>
+            <th onclick="sortTable(7)">F6</th>
+            <th onclick="sortTable(8)">Total</th>
+            <th onclick="sortTable(9)">PromFR</th>
+            <th onclick="sortTable(10)">S1</th>
+            <th onclick="sortTable(11)">S2</th>
+            <th onclick="sortTable(12)">TotalS</th>
+            <th onclick="sortTable(13)">PromS</th>
+            <th onclick="sortTable(14)">FI1</th>
+            <th onclick="sortTable(15)">FI2</th>
+            <th onclick="sortTable(16)">FI3</th>
+            <th onclick="sortTable(17)">TotalFI</th>
+            <th onclick="sortTable(18)">PromFI</th>
+            <th onclick="sortTable(19)">TotalGral</th>
+            <th onclick="sortTable(20)">PromGral</th>
+          </tr>
+        </thead>        
+        <tbody>
+          <% for(var i=0; i<data.length; i++) { %>
+          <tr>
+            <td><%= data[i].jugador %></td>
+            <td><%= data[i].equipo %></td>
+            <td><%= data[i].F1 %></td>
+            <td><%= data[i].F2 %></td>
+            <td><%= data[i].F3 %></td>
+            <td><%= data[i].F4 %></td>
+            <td><%= data[i].F5 %></td>
+            <td><%= data[i].F6 %></td>
+            <td><%= data[i].total %></td>
+            <td><%= data[i].promFR %></td>
+            <td><%= data[i].S1 %></td>
+            <td><%= data[i].S2 %></td>
+            <td><%= data[i].totalS %></td>
+            <td><%= data[i].promS %></td>
+            <td><%= data[i].FI1 %></td>
+            <td><%= data[i].FI2 %></td>
+            <td><%= data[i].FI3 %></td>
+            <td><%= data[i].totalFI %></td>
+            <td><%= data[i].promFI %></td>
+            <td><%= data[i].totalGral %></td>
+            <td><%= data[i].promGral %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
