@@ -53,8 +53,12 @@ axios.get(url)
     const filteredData = data.filter(item => item.equipo.includes("DEPO CAS"));
 
     app.get('/', (req, res) => {
-        res.render('index', { data: filteredData }); // send the test.html file as the response
+        res.render('index', { data: filteredData }); // send the index.ejs file as the response
     });
+
+    app.get('/todos', (req, res) => {
+      res.render('index', { data: data }); // send the index.ejs file as the response
+  });
 
 })
   .catch(error => console.log(error));
