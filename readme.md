@@ -4,6 +4,8 @@ Este es un proyecto desarrollado por miembros del Club Deportivo de Carlos Casar
 ## ¿Qué es este web-scraper?
 Este web-scraper fue diseñado para recopilar información deportiva de la página deportelauquen.com.ar y presentarla de manera más ordenada y fácil de entender para los usuarios. El objetivo principal de este proyecto es hacer que la información sea más accesible para todos los interesados en el deporte local.
 
+La informacion mostrada en la tabla fue sustraida del siguiente [link](https://deportelauquen.com.ar/termino-el-torneo-u17-de-formativas-campeon-deportivo-argentino-de-pehuajo-goleadores-del-clausura-de-primera-division/)
+
 ## ¿Cómo usar este scraper?
 Este web-scraper es muy fácil de usar. Todo lo que tienes que hacer es seguir estos sencillos pasos:
 
